@@ -1,0 +1,5 @@
+2 commits since v5.4.6
+
+Changelog (excluding merges):
+* (1f21a8a) [ghorsington] Bump version
+* (ee0f85c) [ghorsington] Update BepInEx.Harmony
