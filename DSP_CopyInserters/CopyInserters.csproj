@@ -97,7 +97,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants.cs" />
+    <Compile Include="LayerMaskConstants.cs" />
     <Compile Include="PlayerAction_Build_Patch.cs" />
     <Compile Include="CopyInserters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
