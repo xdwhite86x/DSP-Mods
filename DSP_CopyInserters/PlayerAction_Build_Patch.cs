@@ -413,7 +413,8 @@ namespace DSP_Mods.CopyInserters
                                 colliderData.q = pose.rotation * colliderData.q;
 
 
-                                int mask = 165888;
+                                //int mask = 165888;
+                                int mask = Convert.ToInt32(Constants.layer12 | Constants.layer16 | Constants.layer18);
                                 int collisionsFound = Physics.OverlapBoxNonAlloc(colliderData.pos, colliderData.ext, _tmp_cols, colliderData.q, mask, QueryTriggerInteraction.Collide);
 
                                 int collisionLimit = cachedInserter.otherIsBelt ? 0 : 1;
